@@ -1,0 +1,43 @@
+header{
+    width: calc(100% - 6.5rem);
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 52px ;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left, .right{
+    display: flex;
+}
+.logo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo img:first-of-type{
+    max-height: 50px;
+    margin-right: 10px;
+}
+.text_Logo{
+    width: 120px;
+}
+.search{
+    margin-left: 100px;
+}
+input{
+    width: 407px;
+    height: 30px;
+    padding: 4px 8px 4px 8px;
+}
+button{
+    height: 30px;
+    font-weight: 600;
+}
+
+.right a{
+    margin-right:10px;
+    font-size: 14px;
+}
